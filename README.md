@@ -10,7 +10,8 @@ Este é o módulo de interface do usuário do Sistema de Gestão Escolar. O sist
 
 ## 📸 Preview
 <img width="1862" height="911" alt="image" src="https://github.com/user-attachments/assets/a465f0f6-1505-4c4b-95d5-cf2da94ca889" />
-<img width="1841" height="927" alt="image" src="https://github.com/user-attachments/assets/351938f1-e7b3-4a97-a453-a2cc861c9322" />
+<img width="1835" height="927" alt="image" src="https://github.com/user-attachments/assets/4524ad5e-87b9-4d0d-a767-95187510061b" />
+
 
 
 ## 🚀 Funcionalidades
