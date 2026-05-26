@@ -1,78 +1,37 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🏫 Sistema de Gestão Escolar (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
+[![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)]()
 
-Currently, two official plugins are available:
+Este é o módulo de interface do usuário do Sistema de Gestão Escolar. O sistema foi desenvolvido para facilitar a administração de turmas, alunos, responsáveis e o acompanhamento financeiro de mensalidades.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **🔗 Repositório do Backend:** [Link para seu repositório de backend aqui]
 
-## React Compiler
+## 📸 Preview
+*(Aqui, coloque o print da sua Dashboard e da página de Inadimplentes)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Funcionalidades
+- **Dashboard:** Visão geral financeira.
+- **Gestão Completa:** Cadastro e edição de Alunos, Turmas e Responsáveis.
+- **Controle Financeiro:** Monitoramento de status de pagamentos (Pago, Pendente, Atrasado).
+- **Interface Responsiva:** Desenvolvido com foco em usabilidade.
 
-## Expanding the ESLint configuration
+## 🏗 Arquitetura
+O sistema segue uma arquitetura cliente-servidor, onde o frontend consome uma API RESTful desenvolvida em Node.js.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠 Tecnologias
+- **React.js** com Vite.
+- **Axios** para consumo de API.
+- **Context API** para gerenciamento de estado global.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💻 Como Rodar
+1. Clone este repositório: `git clone https://github.com/szaboyy/escola-frontend.git`
+2. Instale as dependências: `npm install`
+3. Certifique-se de que o backend esteja rodando.
+4. Inicie o projeto: `npm run dev`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# escola-frontend
-Sistema completo de gestão escolar com cadastro de alunos, turmas, responsáveis e controle financeiro.
->>>>>>> baf972fbdc7d8253d35c26c4c5a8dba5de73539f
+---
+*Projeto desenvolvido como parte do meu portfólio de desenvolvedor Full Stack.*
