@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,7 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# escola-frontend
+Sistema completo de gestão escolar com cadastro de alunos, turmas, responsáveis e controle financeiro.
+>>>>>>> baf972fbdc7d8253d35c26c4c5a8dba5de73539f
